@@ -1,0 +1,35 @@
+UNIT TESTS ----------------------------------------------
+
+1. A Function called "multiplication" that returns the product of two input numbers.
+
+Expect multiplication(5, 10) to be a number.
+Expect multiplication(5, 10) to be the product of 2 numbers.
+Expect multiplication(5, 10) to be equal to 50.
+Expect multiplication(0, 10) to be equal to 0.
+Expect multiplication(a, 10) to be an error.
+
+2. A function called "concatOdds" takes two arrays of integers as arguments. It should return a single array that only contains the ods numbers, in ascending order, from bothe the arrays.
+
+Should return a single array
+Should not include even numbers
+Multiples of same odd number should only appear once in the array
+Numbers should be odd
+Numbers should appear in ascending order
+Expect concatOdds([3, 2, 1], [9, 1, 1, 1, 4, 15, -1]) to be an array.
+Expect concatOdds([3, 2, 1], [9, 1, 1, 1, 4, 15, -1]) to be equal to [-1, 1, 3, 9, 15].
+Expect concatOdds([2, 4, 6], [1, 2, 3]) to be equal to [1, 3].
+Expect concatOdds([1, 1, 1], [3, 3, 3]) to be equal to [1, 3].
+Expect concatOdds([2, 4, 6], [2, 2, 2]) to be equal to [].
+Expect concatOdds([2, 4, 6], [a, 2, 2]) to be an error.
+
+FUNCTIONAL TEST ----------------------------------------------
+
+-Empty Cart if guest tries to check out, Show an error if the cart is empty.
+-Prompt to create account or log in, Ask to create an account or log in.
+-Order confirmation, Show a confirmation page or send an email after checkout.
+-Add Items, Update cart to show the new item.
+-Remove Items, Update cart to remove the item.
+-Order Summary, Show item details, prices, and total cost.
+-Invalid Payment, Show an error for wrong payment info.
+-Payment Confirmation, Go to order confirmation page after payment.
+-Out of Stock, Notify acustomer of any out of stock items and offer alternatives
